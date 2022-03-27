@@ -1,8 +1,8 @@
-// Start The Vagrant Machine
+### Start The Vagrant Machine
 vagrant up
 
-// Log into the machine
+### Log into the machine
 vagrant ssh
 
-// Delete the machine
+### Delete the machine
 vagrant destroy
