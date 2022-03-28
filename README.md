@@ -31,3 +31,6 @@ If the Vagrant box is giving issues, it's easier to just destroy with `vagrant d
 ```
 vagrant destroy
 ```
+
+### Note about running multiple vagrant machines
+Try to avoid running more than one vagrant machine at the same time, this will quickly start eating up your computer resources. Instead shut down one machine before trying to start another. Whenever you run `vagrant up` in one folder, you've started a vagrant machine. If you were to `vagrant up` in a different folder with a different `Vagrantfile` then, that would be you starting another different vagrant machine. Like I mentioned, if you have to use more than one vagrant machine, shut one down before starting the other.
